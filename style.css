@@ -1,0 +1,112 @@
+/* General Settings */
+
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    color: #263449;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #243b64;
+    padding: 16px 0;
+}
+
+/* Main Heading */
+
+h1 {
+    color: #243b64;
+}
+
+/* Cards */
+
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+/* Form Inputs */
+
+.form-control {
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #4778c7;
+    box-shadow: 0 0 0 0.2rem rgba(71, 120, 199, 0.15);
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 8px;
+    padding: 11px 18px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #315b9b;
+    border-color: #315b9b;
+}
+
+.btn-primary:hover {
+    background-color: #243b64;
+}
+
+.btn-success {
+    background-color: #21866b;
+    border-color: #21866b;
+}
+
+/* Student Item */
+
+.student-item {
+    background-color: #f7f9fc;
+    border: 1px solid #e3eaf3;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+/* Report */
+
+.report-box {
+    background-color: #f0f6ff;
+    border: 1px solid #d7e5f8;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.report-student {
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #243b64;
+    color: white;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    main.container {
+        padding-top: 25px !important;
+    }
+
+    .card {
+        padding: 20px !important;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+}
